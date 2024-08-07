@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 import streamlit as st
-from sklearn import linear_model
+import sklearn
 logr = pickle.load(open('model.pkl','rb'))
 def main(): 
   age = st.text_input("Sex","0") 
